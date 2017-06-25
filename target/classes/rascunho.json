@@ -1,0 +1,83 @@
+{
+  "codigo":388,
+  "numero":69,
+  "ano":2017,
+  "codigoOrgaoEntidadeInstauradora":3053940,
+  "dadosInstauracaoTCE":{
+    "dadosTCE":{
+      "motivoInstauracao":"Desfalque, alcance, desvio ou desaparecimento de dinheiro, bens ou valores públicos",
+      "submotivoInstauracao":"Outros motivos",
+      "origemRecursos":"Transferências discricionárias",
+      "iniciativaInstauracao":"Determinação do Tribunal de Contas da União",
+      "codigoUgResponsavelInstauracao":"123412",
+      "dataInicioPrazoInstauracao":"01/01/2016",
+      "numeroProcessoAdmOrigem":"1324134",
+      "dataDeterminacaoInstauracao":"01/01/2016"
+    },
+    "funcionalProgramatica":"",
+    "codigoRelatorioTomadorContas":null,
+    "codigoDocumentoQualificacaoResponsaveis":null,
+    "documentosComprobatorios":[
+      {
+        "codigoDocumento":55600440,
+        "nomeOriginal":"teste.pdf",
+        "tipo":"Aviso de recebimento - AR",
+        "descricao":null,
+        "tiposDocumentoComprobatorio": [
+          "Abacate",
+          "Laranja",
+          "Tipo Documento 1",
+          "Tipo Documento 2",
+          "Tipo Documento 3",
+          "Tipo Documento 4",
+          "Tipo Documento 5"
+        ],
+        "hashConteudoDocumento":"0DyH66z+wiI/Cjg37jagPA==",
+        "descricaoTipoFormatada":"Aviso de recebimento - AR"
+      },
+      {
+        "codigoDocumento":55600441,
+        "nomeOriginal":"Sesc.pdf",
+        "tipo":"Aviso de recebimento - AR",
+        "descricao":null,
+        "tiposDocumentoComprobatorio": [
+          "Abacate",
+          "Laranja",
+          "Tipo Documento 1",
+          "Tipo Documento 2",
+          "Tipo Documento 3",
+          "Tipo Documento 4",
+          "Tipo Documento 5"
+        ],
+        "hashConteudoDocumento":"2bdj059+kYmPSOaCD8znFg==",
+        "descricaoTipoFormatada":"Aviso de recebimento - AR"
+      },
+      {
+        "codigoDocumento":55600444,
+        "nomeOriginal":"teste_foto.pdf",
+        "tipo":null,
+        "descricao":null,
+        "tiposDocumentoComprobatorio": [
+          "Tipo Documento 5"
+        ],
+        "hashConteudoDocumento":"9NXS5AE1GVQWWF0gc0IY7Q==",
+        "descricaoTipoFormatada":null
+      }
+    ],
+    "responsaveis":[
+
+    ],
+    "debitoTCE":{
+      "codDocumentoDemonstrativoDebito":null,
+      "dataAtualizacaoDebito":"",
+      "valorDebito":""
+    },
+    "justificativaAusenciaDocumentosComprobatorios":null
+  },
+  "codigoInstrumento":599,
+  "dadosTCETransferenciaFundoAFundo":null,
+  "dadosTCETransferenciaLegal":null,
+  "dadosTCEAplicacaoDireta":null,
+  "dadosTCEIncentivosFiscais":null,
+  "situacaoRascunho":"Em elaboração"
+}

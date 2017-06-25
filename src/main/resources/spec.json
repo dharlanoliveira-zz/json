@@ -1,0 +1,37 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "codigo": "codigo",
+      "numero": "numero",
+      "ano": "ano",
+      "dadosInstauracaoTCE": {
+        "dadosTCE": "dadosInstauracaoTCE.dadosTCE",
+        "funcionalProgramatica": "dadosInstauracaoTCE.funcionalProgramatica",
+        "codigoRelatorioTomadorContas": "dadosInstauracaoTCE.codigoRelatorioTomadorContas",
+        "codigoDocumentoQualificacaoResponsaveis": "dadosInstauracaoTCE.codigoDocumentoQualificacaoResponsaveis",
+        "responsaveis": "dadosInstauracaoTCE.responsaveis",
+        "debitoTCE": "dadosInstauracaoTCE.debitoTCE",
+        "justificativaAusenciaDocumentosComprobatorios": "dadosInstauracaoTCE.justificativaAusenciaDocumentosComprobatorios",
+        "documentosComprobatorios": {
+          "*": {
+            "codigoDocumento": "dadosInstauracaoTCE.documentosComprobatorios.[&1].codigoDocumento",
+            "nomeOriginal": "dadosInstauracaoTCE.documentosComprobatorios.[&1].nomeOriginal",
+            "descricao": "dadosInstauracaoTCE.documentosComprobatorios.[&1].descricao",
+            "hashConteudoDocumento": "dadosInstauracaoTCE.documentosComprobatorios.[&1].hashConteudoDocumento",
+            "descricaoTipoFormatada": "dadosInstauracaoTCE.documentosComprobatorios.[&1].descricaoTipoFormatada",
+            "tiposDocumentoComprobatorio": "dadosInstauracaoTCE.documentosComprobatorios.[&1].tiposPossiveis.descricoes",
+            "#true": "dadosInstauracaoTCE.documentosComprobatorios.[&1].tiposPossiveis.temRestricaoMinimaTexto"
+          }
+        }
+      },
+      "codigoOrgaoEntidadeInstauradora": "codigoOrgaoEntidadeInstauradora",
+      "codigoInstrumento": "codigoInstrumento",
+      "dadosTCETransferenciaFundoAFundo": "dadosTCETransferenciaFundoAFundo",
+      "dadosTCETransferenciaLegal": "dadosTCETransferenciaLegal",
+      "dadosTCEAplicacaoDireta": "dadosTCEAplicacaoDireta",
+      "dadosTCEIncentivosFiscais": "dadosTCEIncentivosFiscais",
+      "situacaoRascunho": "situacaoRascunho"
+    }
+  }
+]
